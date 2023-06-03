@@ -1,6 +1,7 @@
 .search-results {
     width: 50%;
-    height: 950px;
+    min-height: 350px;
+    max-height: 600px;
     overflow-y: scroll;
     padding: 2.27rem 1.16rem;
     border: 1px solid #30363d;
