@@ -1,0 +1,48 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding-top: 4rem;
+  text-align: left;
+  font-family: 'Mona Sans', sans-serif;
+  font-size: 4.44rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #7ee787;
+}
+
+h2 {
+  font-family: 'Mona Sans', sans-serif;
+  font-size: 1.55rem;
+}
+
+.app {
+  padding: 0 17% 10% 17%;
+  background-color: #0d1016;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.app-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .app-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+

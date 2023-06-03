@@ -1,0 +1,52 @@
+.playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 37%;
+    padding: 2.27rem 1.16rem;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    background-color: #161b22;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.5), 0 70px 65px rgba(0,0,0,.18), 0 30px 30px rgba(0,0,0,.14), 0 15px 15px rgba(0,0,0,.12), 0 10px 8px rgba(0,0,0,.1), 0 4px 4px rgba(0,0,0,.08), 0 2px 2px rgba(0,0,0,.06);
+}
+
+.playlist input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #7ee787;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    color: #fff;
+}
+
+.playlist-save {
+    cursor: pointer;
+    width: 8.1rem;
+    padding: 0.77rem 0;
+    margin-top: 1.27rem;
+    border-radius: 54px;
+    background: linear-gradient(180deg, rgba(52, 183, 89, 0.15) 0%, rgba(46, 164, 79, 0) 100%),#7ee787;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 700;
+    border: none;
+}
+
+.playlist-save:hover {
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15), 0 100px 80px rgba(255, 255, 255, 0.02), 0 42px 33px rgba(255, 255, 255, 0.024), 0 22px 18px rgba(255, 255, 255, 0.028), 0 12px 10px rgba(255, 255, 255, 0.034), 0 7px 5px rgba(255, 255, 255, 0.04), 0 3px 2px rgba(255, 255, 255, 0.07);;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .playlist {
+    width: 90%;
+  }
+}
